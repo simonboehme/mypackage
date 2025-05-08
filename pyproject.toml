@@ -5,6 +5,10 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "mypackage"
 version = "0.1.0"
+authors = [{name = "Simon Boehme et al."}]
 license = {file = "LICENSE.txt"}
 description = "My first package, yooo"
+dependencies = [
+  "numpy",
+]
 
